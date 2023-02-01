@@ -1,0 +1,45 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 35vw;
+
+    border-radius: 1vw;
+    
+    background: white;
+}
+
+.img-container{
+    width: 31.8vw;
+
+    padding: 1vw;
+
+    border-radius: 1vw;
+    overflow: hidden;
+
+}
+
+.img-container img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1.4vw;
+
+}
+
+.card-text-content{
+    padding: 0 2vw;
+    font-weight: 600;
+
+    text-align: center;
+
+    margin-bottom: 2vw;
+}
+
+.card-text-content h2 {
+    font-size: 2.4vw;
+}
+.card-text-content p {
+    color: #777;
+    font-size:1.6vw;
+}
